@@ -3,7 +3,7 @@ import os
 import pickle
 import numpy as np
 
-CIFAR_DIR = "./../../cifar-10-batches-py"
+CIFAR_DIR = ".\..\cifar-10-batches-py"
 print(os.listdir(CIFAR_DIR))
 
 def load_data(filename):
